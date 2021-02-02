@@ -11,12 +11,63 @@
 <body>
     <form class="search">
         <label for="city">City:</label>
-        <input type="text" id="cityInput" name="city">
+        <input type="text" id="cityInput" name="city" required>
         <label for="state">State:</label>
         <input type="text" id="stateInput" name="state">
         <label for="country">Country:</label>
         <input type="text" id="countryInput" name="country">
         <input type="button" id="search" value="Search">
     </form>
+<section class="w_output">
+    <img class="w_icon" id="w_icon" src="" alt="">
+    <table id="w_data">
+        <tr>
+            <th>
+                Current Temp (F)
+            </th>
+            <th>
+                Humidity
+            </th>
+            <th>
+                Pressure
+            </th>
+            <th>
+                Wind
+            </th>
+            <th>
+                Feels like (F)
+            </th>
+            <th>
+                Sunrise
+            </th>
+            <th>
+                Sunset
+            </th>
+        </tr>
+        <tr>
+            <td id="currenttemp">
+
+            </td>
+            <td id="humidity">
+
+            </td>
+            <td id="pressure">
+                
+            </td>
+            <td id="wind">
+
+            </td>
+            <td id="feelslike">
+
+            </td>
+            <td id="sunrise">
+
+            </td>
+            <td id="sunset">
+
+            </td>
+        </tr>
+    </table>
 </body>
+</section>
 </html>
